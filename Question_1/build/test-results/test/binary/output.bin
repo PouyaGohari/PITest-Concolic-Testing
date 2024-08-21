@@ -1,0 +1,77 @@
+4ERROR: User Story US08: Birth Before Marriage Date 
+Family ID: @F1@
+CIndividual: @I1@: Child Doe Has been born before parents' marriage
+2DOB: 01/01/1975 Parents Marriage Date: 01/01/1980
+
+
+)ERROR: User Story US20: Aunts and Uncles
+VIndividual: @I3@ - Child Doe is married to either their aunt or uncle @I4@ - Aunt Doe
+
+
+4ERROR: User Story US24: Unique Families By Spouse :
+j@F3@: Husbund Name: John Doe,Wife Name: Jane Smith and @F1@: Husbund Name: John Doe,Wife Name: Jane Smith
+2 have same spouses and marriage dates :01/01/2000
+
+4ERROR: User Story US24: Unique Families By Spouse :
+j@F1@: Husbund Name: John Doe,Wife Name: Jane Smith and @F3@: Husbund Name: John Doe,Wife Name: Jane Smith
+2 have same spouses and marriage dates :01/01/2000
+
+)ERROR: User Story US20: Aunts and Uncles
+VIndividual: @I3@ - Child Doe is married to either their aunt or uncle @I4@ - Aunt Doe
+
+
+8ERROR:FAMILY: User Story US04: Marriage Before Divorce 
+Family: @F1@
+QIndividual: @I1@: John Doe@I2@: Jane Smith marriage date is before divorce date.
+3Marriage Date: 01/01/2000 Divorce Date: 01/01/1980
+
+
+
+7ERROR:INDIVIDUAL: User Story US03: Birth Before Death 
+1Individual: @I1@ - John Doe was born after death
+ DOB: 01/01/2000 DOD: 01/01/1980
+
+1ERROR: User Story US08: Birth After Divorce Date
+Family ID: @F1@
+AIndividual: @I1@: Child Doe Has been born after parents' divorce
+1DOB: 01/01/1995 Parents Divorce Date: 01/01/1990
+
+
+8ERROR:FAMILY: User Story US04: Marriage Before Divorce 
+Family: @F1@
+QIndividual: @I1@: John Doe@I2@: Jane Smith marriage date is before divorce date.
+3Marriage Date: 01/01/2000 Divorce Date: 01/01/1980
+
+!4ERROR: User Story US24: Unique Families By Spouse :
+!j@F2@: Husbund Name: John Doe,Wife Name: Jane Smith and @F1@: Husbund Name: John Doe,Wife Name: Jane Smith
+!2 have same spouses and marriage dates :01/01/2000
+!
+!4ERROR: User Story US24: Unique Families By Spouse :
+!j@F1@: Husbund Name: John Doe,Wife Name: Jane Smith and @F2@: Husbund Name: John Doe,Wife Name: Jane Smith
+!2 have same spouses and marriage dates :01/01/2000
+!
+$4ERROR: User Story US08: Birth Before Marriage Date 
+$Family ID: @F1@
+$CIndividual: @I1@: Child Doe Has been born before parents' marriage
+$2DOB: 01/01/1975 Parents Marriage Date: 01/01/1980
+$
+$
+%4ERROR: User Story US24: Unique Families By Spouse :
+%j@F2@: Husbund Name: John Doe,Wife Name: Jane Smith and @F1@: Husbund Name: John Doe,Wife Name: Jane Smith
+%2 have same spouses and marriage dates :01/01/2000
+%
+%4ERROR: User Story US24: Unique Families By Spouse :
+%j@F1@: Husbund Name: John Doe,Wife Name: Jane Smith and @F2@: Husbund Name: John Doe,Wife Name: Jane Smith
+%2 have same spouses and marriage dates :01/01/2000
+%
+'First line of content
+'Second line of content
+/Test output content
+5
+5
+57ERROR:INDIVIDUAL: User Story US03: Birth Before Death 
+51Individual: @I1@ - John Doe was born after death
+5 DOB: 01/01/2000 DOD: 01/01/1980
+5
+6 Please Enter Output File Path: 
+;

@@ -1,0 +1,16 @@
+0 HEAD
+1 SOUR MyGenealogyApp
+2 VERS 1.0
+1 DATE 30 SEP 2024
+0 @I1@ INDIsadf
+1 NAME John /Doe/
+2 GIVN John
+2 SURN Doe
+1 SEX M
+1 BIRT
+2 DATE 15 JUN 1975
+2 PLAC San Francisco, CA
+1 DEAT Y
+2 DATE 20 AUG 2050
+2 PLAC San Francisco, CA
+0 TRLR

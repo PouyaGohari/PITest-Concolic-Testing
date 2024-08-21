@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.stevens.ssw555.Gedcom_ServiceTest" tests="60" skipped="0" failures="2" errors="0" timestamp="2024-06-12T23:10:14" hostname="walle" time="0.197">
+  <properties/>
+  <testcase name="testBirthBeforeMarriageOfParentBirthBeforeMarriage()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.04"/>
+  <testcase name="readAndParseFileDupFam()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.01"/>
+  <testcase name="readAndParseFileDupInd()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.006"/>
+  <testcase name="testAuntsAndUnclesNameFileOutput()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.01"/>
+  <testcase name="testUniqueFamilyNameBySpousesSameSpousesDifferentIDs()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.012"/>
+  <testcase name="readAndParseFileWithSingleFamily()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testMarriageBeforeDivorceNullDivorceDate()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="readAndParseFileEmptyFile()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testBirthBeforeMarriageOfParentValidDates()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testUniqueFamilyNameBySpousesDifferentDates()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testBirthBeforeMarriageOfParentParseException()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002"/>
+  <testcase name="testAuntsAndUnclesNameNoIncest()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testAuntsAndUnclesNameIncest()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testMaleLastNameDifferent()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.005">
+    <failure message="org.opentest4j.AssertionFailedError: Expected output file to be created ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected output file to be created ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at edu.stevens.ssw555.Gedcom_ServiceTest.testMaleLastNameDifferent(Gedcom_ServiceTest.java:878)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testNoMaleMembers()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002"/>
+  <testcase name="testMaleLastNameAllSame()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testBirthBeforeDeathNullDeathDate()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002"/>
+  <testcase name="testMarriageBeforeDivorceFileOutput()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.011"/>
+  <testcase name="readAndParseFileWrongHUSB()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="readAndParseFileWrongMARR()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="readAndParseFileWrongWIFE()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testBirthBeforeDeathFileOutput()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002"/>
+  <testcase name="testBirthBeforeMarriageOfParentBirthAfterDivorce()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testMaleLastNameFileOutput()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002">
+    <failure message="org.opentest4j.AssertionFailedError: Expected output file to be created ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected output file to be created ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at edu.stevens.ssw555.Gedcom_ServiceTest.testMaleLastNameFileOutput(Gedcom_ServiceTest.java:939)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="readAndParseFileNoExistanceFIle()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.003"/>
+  <testcase name="testMarriageBeforeDivorceInvalidDates()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002"/>
+  <testcase name="readAndParseFileWrongDIV()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="readAndParseFileWrongFAM()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="readAndParseFileWrongIND()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testUniqueFamilyNameBySpousesDifferentDates2()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testGetMonthValid()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testUniqueFamilyNameBySpousesDuplicate2()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="readAndParseFileWrongCHILD()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002"/>
+  <testcase name="testWriteToFileWithNullFileName()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testBirthBeforeMarriageOfParentFileOutput()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testUniqueFamilyNameBySpousesDuplicate()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testAuntsAndUnclesNameParseException()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testWriteMultipleLinesToFile()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002"/>
+  <testcase name="readAndParseFileWithNullBIRT()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002"/>
+  <testcase name="readAndParseFileWithNullDEAT()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="readAndParseFileWithNullFAMC()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.0"/>
+  <testcase name="readAndParseFileWithNullFAMS()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="readAndParseFileWithNullName()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testGetMonthInvalidInput()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testGetMonthNullPointerException()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testWriteToFile()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="readAndParseFileWithSingleInd()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testMarriageBeforeDivorceParseException()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002"/>
+  <testcase name="testUniqueFamilyNameBySpousesDifferentSpouses2()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testUniqueFamilyNameBySpousesNoDuplicate2()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testUniqueFamilyNameBySpousesDifferentSpouses()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testBirthBeforeDeathInvalidDates()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002"/>
+  <testcase name="testCreateOutputFileWithValidPath()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="readAndParseFileWithNullSex()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testUniqueFamilyNameBySpousesDifferentSpousesSameDate()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testUniqueFamilyNameBySpousesNullHusbandOrWife()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testMarriageBeforeDivorceValidDates()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testWriteToFileWithEmptyContent()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testBirthBeforeDeathValidDates()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.001"/>
+  <testcase name="testUniqueFamilyNameBySpousesNoDuplicate()" classname="edu.stevens.ssw555.Gedcom_ServiceTest" time="0.002"/>
+  <system-out><![CDATA[ERROR: User Story US08: Birth Before Marriage Date 
+Family ID: @F1@
+Individual: @I1@: Child Doe Has been born before parents' marriage
+DOB: 01/01/1975 Parents Marriage Date: 01/01/1980
+
+
+ERROR: User Story US20: Aunts and Uncles
+Individual: @I3@ - Child Doe is married to either their aunt or uncle @I4@ - Aunt Doe
+
+
+ERROR: User Story US24: Unique Families By Spouse :
+@F3@: Husbund Name: John Doe,Wife Name: Jane Smith and @F1@: Husbund Name: John Doe,Wife Name: Jane Smith
+ have same spouses and marriage dates :01/01/2000
+
+ERROR: User Story US24: Unique Families By Spouse :
+@F1@: Husbund Name: John Doe,Wife Name: Jane Smith and @F3@: Husbund Name: John Doe,Wife Name: Jane Smith
+ have same spouses and marriage dates :01/01/2000
+
+ERROR: User Story US20: Aunts and Uncles
+Individual: @I3@ - Child Doe is married to either their aunt or uncle @I4@ - Aunt Doe
+
+
+ERROR:FAMILY: User Story US04: Marriage Before Divorce 
+Family: @F1@
+Individual: @I1@: John Doe@I2@: Jane Smith marriage date is before divorce date.
+Marriage Date: 01/01/2000 Divorce Date: 01/01/1980
+
+
+
+ERROR:INDIVIDUAL: User Story US03: Birth Before Death 
+Individual: @I1@ - John Doe was born after death
+DOB: 01/01/2000 DOD: 01/01/1980
+
+ERROR: User Story US08: Birth After Divorce Date
+Family ID: @F1@
+Individual: @I1@: Child Doe Has been born after parents' divorce
+DOB: 01/01/1995 Parents Divorce Date: 01/01/1990
+
+
+ERROR:FAMILY: User Story US04: Marriage Before Divorce 
+Family: @F1@
+Individual: @I1@: John Doe@I2@: Jane Smith marriage date is before divorce date.
+Marriage Date: 01/01/2000 Divorce Date: 01/01/1980
+
+ERROR: User Story US24: Unique Families By Spouse :
+@F2@: Husbund Name: John Doe,Wife Name: Jane Smith and @F1@: Husbund Name: John Doe,Wife Name: Jane Smith
+ have same spouses and marriage dates :01/01/2000
+
+ERROR: User Story US24: Unique Families By Spouse :
+@F1@: Husbund Name: John Doe,Wife Name: Jane Smith and @F2@: Husbund Name: John Doe,Wife Name: Jane Smith
+ have same spouses and marriage dates :01/01/2000
+
+ERROR: User Story US08: Birth Before Marriage Date 
+Family ID: @F1@
+Individual: @I1@: Child Doe Has been born before parents' marriage
+DOB: 01/01/1975 Parents Marriage Date: 01/01/1980
+
+
+ERROR: User Story US24: Unique Families By Spouse :
+@F2@: Husbund Name: John Doe,Wife Name: Jane Smith and @F1@: Husbund Name: John Doe,Wife Name: Jane Smith
+ have same spouses and marriage dates :01/01/2000
+
+ERROR: User Story US24: Unique Families By Spouse :
+@F1@: Husbund Name: John Doe,Wife Name: Jane Smith and @F2@: Husbund Name: John Doe,Wife Name: Jane Smith
+ have same spouses and marriage dates :01/01/2000
+
+First line of content
+Second line of content
+Test output content
+
+
+ERROR:INDIVIDUAL: User Story US03: Birth Before Death 
+Individual: @I1@ - John Doe was born after death
+DOB: 01/01/2000 DOD: 01/01/1980
+
+Please Enter Output File Path: 
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
